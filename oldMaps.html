@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Wildfire Watcher</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <meta charset="UTF-8" />
+
+    <!-- CSS Bootstrap & Custom -->
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet" media="screen" />
+    <link href="css/animate.css" rel="stylesheet" media="screen" />
+    <link href="css/templatemo_style.css" rel="stylesheet" media="screen" />
+    <link
+      rel="stylesheet"
+      href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- JavaScripts -->
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/modernizr.js"></script>
+
+
+  </head>
+
+  <body>
+    <!-- Preloader -->
+    <div id="page-preloader">
+      <div id="spinner"></div>
+    </div>
+    <!-- End Preloader -->
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="mobile-nav hide-nav hidden-md hidden-lg">
+      <div class="mobile-menu-close">
+        <button type="button" class="close" aria-hidden="true">
+          <span>Close</span>&times;
+        </button>
+      </div>
+      <div class="mobile-navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+        </ul>
+      </div>
+      <ul class="mobile-social-icons">
+        <li>
+          <a href="https://www.facebook.com/profile.php?id=100077996343020"
+            ><i class="fa fa-facebook"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://twitter.com/WildfireWatche1"
+            ><i class="fa fa-twitter"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/wildfire-watchers-065944230/"
+            ><i class="fa fa-linkedin"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://dashboard.rss.com/account/"
+            ><i class="fa fa-rss"></i
+          ></a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Header -->
+    <header id="header" class="site-header" role="banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 logo">
+            <a href="#">
+              <img
+                src="images/rsz_logo-seniordesign.png"
+                alt="Impressum Template"
+                title="Impressum Parallax Template"
+              />
+            </a>
+          </div>
+          <!-- //.logo -->
+
+          <div class="col-md-8">
+            <nav id="navigation" class="hidden-sm hidden-xs main-navigation">
+              <ul id="main-nav">
+                <li class="current"><a href="index.html">Home</a></li>
+              </ul>
+            </nav>
+
+            <a
+              href="#mobile-menu"
+              class="visible-xs visible-sm mobile-menu-trigger"
+              ><i class="fa fa-reorder"></i
+            ></a>
+          </div>
+        </div>
+        <!-- //.row -->
+      </div>
+      <!-- //.container -->
+    </header>
+    <!-- End Header -->
+
+    <!-- Portfolio Section -->
+    <section id="dashboard" class="content-section clearfix">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class="section-title right">Dashboard</h2>
+          </div>
+        </div>
+
+
+
+
+        <!-- map 1 -->
+        <div classname="findwildfires" text-align="center">
+          <h2 text-align="center">Wildfire Map</h2>
+          <div classname="embed-container">
+            <iframe
+              width="1080"
+              height="720"
+              frameborder="0"
+              allowfullscreen
+              src="https://experience.arcgis.com/experience/da5c827bd3714267b847563ca52d7320/page/PIM/?views=Share"
+            ></iframe>
+          </div>
+          <div>
+            <h5>Powered by ArcGIS</h5>
+          </div>
+
+
+          <!-- map 2 -->
+          <div id="main_block">
+            <h2 text-align="center">Wildfire Correlations Map</h2>
+            <iframe
+              id="left_frame"
+              src="https://arcg.is/111qDa"
+              width="1080"
+              height="720"
+              frameborder="0"
+              style="border: 0;"
+              allowfullscreen
+            >
+            </iframe>
+
+            <!-- map 3 -->
+            <iframe
+              id="right_frame"
+              src="https://www.arcgis.com/apps/Compare/index.html?appid=8bf1480de87346bb8098d9d51eb8b628 "
+              width="1080"
+              height="720"
+              frameborder="0"
+              style="border: 0;"
+              allowfullscreen
+            >
+            </iframe>
+
+            <!-- map 4 -->
+            <iframe
+            id="left_frame"
+            src="https://arcg.is/0ifH1q"
+            width="1080"
+            height="720"
+            frameborder="0"
+            style="border: 0;"
+            allowfullscreen
+          >
+          </iframe>
+            
+          <!-- map 5 -->
+            <h2 text-align="center">Vegetation Map</h2>
+            <iframe
+            id="right_frame"
+            src="https://arcg.is/1H11Py0"            "
+            width="1080"
+            height="720"
+            frameborder="0"
+            style="border: 0;"
+            allowfullscreen
+          >
+            </iframe>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Portfolio Section -->
+    <!-- Hidden Content -->
+    <section id="load-folio" class="folio-details">
+      <div id="folio-content" class="load-folio-content"></div>
+    </section>
+
+    <footer id="footer" class="site-footer" role="contentinfo">
+      <div class="container">
+        <div class="col-md-6 col-sm-6">
+          <div class="copyright-text">
+            <span>Copyright &copy; 2021 Senior Design</span>
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-6">
+          <div class="social-icons">
+            <ul>
+              <li>
+                <a
+                  href="https://www.facebook.com/profile.php?id=100077996343020"
+                  class="fa fa-facebook"
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://twitter.com/WildfireWatche1"
+                  class="fa fa-twitter"
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/wildfire-watchers-065944230/"
+                  class="fa fa-linkedin"
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://dashboard.rss.com/account/"
+                  class="fa fa-rss"
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JavaScripts -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      .embed-container {
+          position: relative; 
+          padding-bottom: 56.25%; 
+          height: 0; 
+          max-width: 100%;
+        } 
+        .embed-container iframe, 
+        .embed-container object, 
+        .embed-container iframe{
+            position: absolute; 
+            top: 0; 
+            left: 0; 
+            width: 100%; 
+            height: 100%;
+          } 
+          small{position: 
+          absolute; 
+          z-index: 40; 
+          bottom: 0; 
+          margin-bottom: -15px;
+        }
+      
+      html,
+      body {
+        height: 100%;
+      }
+
+      html {
+        display: table;
+        margin: auto;
+      }
+
+      body {
+        display: table-cell;
+        vertical-align: middle;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      .title {
+        text-align: center;
+      }
+
+      .box {
+        padding: 0 10px 0 10px;
+      }
+      .sticky {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        background-color: white;
+      }
+      /* Create two equal columns that floats next to each other */
+      .column {
+        float: left;
+        width: 50%;
+        padding: 10px;
+      }
+
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+
+      }
+
+      /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+      @media screen and (max-width: 600px) {
+        .column {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+
+  <!-- NAV BAR HERE -->
+  <header class="sticky">
+    <div class="row">
+      <div class="column">
+        <a href="#">
+          <img src="images/rsz_logo-seniordesign.png" />
+        </a>
+      </div>
+      <div class="column" style="padding-top: 30px;">
+        <a href="index.html">Home</a>
+      </div>
+    </div>
+  </header>
+  <!-- END NAVBAR -->
+
+  <body>
+    <!-- PAGE TITLE -->
+    <h1 class="title">Dashboard</h1>
+    <!-- ROWS WITH 2 COLUMNS EACH -->
+
+    <!-- FIRST ROW -->
+    <div class="row">
+          <div class="column box">
+            <!-- WILDFIRE MAP -->
+            <h2 text-align="center">Wildfire Map</h2>
+            <div class="embed-container">
+              <iframe 
+                      width="1920"
+                      height="720" 
+                      frameborder="0" 
+                      scrolling="no" 
+                      marginheight="0" 
+                      marginwidth="0" 
+                      title="Wildfire Map" 
+                      src="https://experience.arcgis.com/experience/da5c827bd3714267b847563ca52d7320/page/PIM/?views=Share">
+              </iframe>
+            </div>
+            <h5>Powered by ArcGIS</h5>
+      </div>
+
+      <div class="column box">
+        <!-- WILDFIRE CORRELATIONS MAP -->
+        <h2 text-align="center">Wildfire Correlations Map</h2>
+        <div class="embed-container">
+            <iframe 
+                    width="1920"
+                    height="720" 
+                    frameborder="0" 
+                    scrolling="no" 
+                    marginheight="0" 
+                    marginwidth="0" 
+                    title="Wildfire Map" 
+                    src="https://arcg.is/111qDa">
+            </iframe>
+        </div>
+    </div>
+  </div>
+    <!-- END OF FIRST ROW -->
+
+    <!-- SECOND ROW -->
+    <div class="row">
+      <div class="column box">
+        <!-- California Drought, Precipitation, Heat Severity, & Vegetation Maps 
+             Wildfires in California Within the Past 20 Years  -->
+        <h2 text-align="center">California Drought, Precipitation, Heat Severity, & Vegetation Map / </h2>
+        <h2 text-align="center">Wildfires in California Within the Past 20 Years Map</h2>
+        <div class="embed-container">
+          <iframe 
+                  width="1920"
+                  height="720"
+                  frameborder="0" 
+                  scrolling="no" 
+                  marginheight="0" 
+                  marginwidth="0" 
+                  title="Wildfire Map" 
+                  src="https://www.arcgis.com/apps/Compare/index.html?appid=8bf1480de87346bb8098d9d51eb8b628">
+          </iframe>
+        </div>
+        <!-- <iframe
+          width="960"
+          height="720"
+          frameborder="0"
+          scrolling="no"
+          marginheight="0"
+          marginwidth="300px"
+          src="https://www.arcgis.com/apps/Compare/index.html?appid=8bf1480de87346bb8098d9d51eb8b628"
+        ></iframe> -->
+      </div>
+
+      <div class="column box">
+          <h2 text-align="center">Drought Map (2000 - Current)</h2>
+          <h2 text-align="center"> </h2>
+          <div class="embed-container">
+              <iframe 
+                      width="1920"
+                      height="720"
+                      frameborder="0" 
+                      scrolling="no" 
+                      marginheight="0" 
+                      marginwidth="0" 
+                      title="Wildfire Map" 
+                      src="https://www.arcgis.com/apps/Compare/index.html?appid=8bf1480de87346bb8098d9d51eb8b628">
+              </iframe>
+          </div>
+      </div>
+    </div>
+    <!-- END OF SECOND ROW -->
+
+    <!-- THIRD ROW -->
+    <div class="row">
+        <div class="column box">
+            <h2 text-align="center">Vegetation Map (2007 - Current)</h2>
+            <div class="embed-container">
+                <iframe 
+                        width="1920"
+                        height="720"
+                        frameborder="0" 
+                        scrolling="no" 
+                        marginheight="0" 
+                        marginwidth="0" 
+                        title="Wildfire Map" 
+                        src="https://arcg.is/OrXPD2">
+                </iframe>
+            </div>
+            <!-- <iframe
+              width="960"
+              height="720"
+              frameborder="0"
+              scrolling="no"
+              marginheight="0"
+              marginwidth="300px"
+              src="https://arcg.is/OrXPD2"
+            ></iframe> -->
+          </div>
+        <div class="column box">
+          <h2 text-align="center">Vegetation Map</h2>
+          <div class="embed-container">
+              <iframe 
+                      width="1920"
+                      height="720"
+                      frameborder="0" 
+                      scrolling="no" 
+                      marginheight="0" 
+                      marginwidth="0" 
+                      title="Wildfire Map" 
+                      src="https://arcg.is/1H11Py0">
+              </iframe>
+          </div>
+          <!-- <iframe
+            width="960"
+            height="720"
+            frameborder="0"
+            scrolling="no"
+            marginheight="0"
+            marginwidth="300px"
+            src="https://arcg.is/1H11Py0"
+          ></iframe> -->
+        </div>
+    </div>
+    <!-- END OF THIRD ROW -->
+
+    <div class="row">
+        <div class="column box">
+          <h2 text-align="center">Fire Hazard Zones Map</h2>
+          <div class="embed-container">
+              <iframe 
+                      width="1920"
+                      height="720" 
+                      frameborder="0" 
+                      scrolling="no" 
+                      marginheight="0" 
+                      marginwidth="0" 
+                      title="Wildfire Map" 
+                      src="https://arcg.is/virC1">
+              </iframe>
+          </div>
+          <!-- <iframe
+            width="960"
+            height="720"
+            frameborder="0"
+            scrolling="no"
+            marginheight="0"
+            marginwidth="300px"
+            src="https://arcg.is/virC1"
+          ></iframe> -->
+        </div>
+        <div class="column box">
+          <!-- DROUGHT MAP  -->
+            <h2 text-align="center">Precipitation Map (2000 - Current)</h2>
+            <div class="embed-container">
+                <iframe 
+                        width="1920"
+                        height="720" 
+                        frameborder="0" 
+                        scrolling="no" 
+                        marginheight="0" 
+                        marginwidth="0" 
+                        title="Wildfire Map" 
+                        src="https://arcg.is/10GO8K0">
+                </iframe>
+            </div>
+            <!-- <iframe
+              width="960"
+              height="720"
+              frameborder="0"
+              scrolling="no"
+              marginheight="0"
+              marginwidth="300px"
+              src="https://arcg.is/10GO8K0"
+            ></iframe> -->
+        </div>
+      <div>
+
+        <div class="row" >
+          <div class="column box">
+              <div class="embed-container">
+                  <iframe 
+                    src="https://csula.maps.arcgis.com/apps/instant/slider/index.html?appid=86b3369cd4c64d569fb1ac80f36824f6" 
+                    width="960" 
+                    height="600" 
+                    frameborder="0" 
+                    allowfullscreen
+                  >
+                    iFrames are not supported on this page.
+                  </iframe>
+                <!-- <iframe 
+                  width="960"
+                  height="720" 
+                  frameborder="0" 
+                  scrolling="no" 
+                  marginheight="0" 
+                  marginwidth="300px" 
+                  title="Historical Wildfires Map" 
+                  src="//csula.maps.arcgis.com/apps/Embed/index.html?webmap=1bee5bda1d594266bfc9ba3e919d1218&extent=-126.4459,33.2711,-104.7479,43.2734&zoom=true&previewImage=false&scale=true&disable_scroll=true&theme=light">
+                </iframe> -->
+              </div>
+          </div>
+          <!-- <div class="column box">
+              <div >
+                <iframe 
+                  width="960"
+                  height="720" 
+                  frameborder="0" 
+                  scrolling="no" 
+                  marginheight="0" 
+                  marginwidth="300px" 
+                  title="Historical Wildfires Map" 
+                  src="//csula.maps.arcgis.com/apps/Embed/index.html?webmap=1bee5bda1d594266bfc9ba3e919d1218&extent=-126.4459,33.2711,-104.7479,43.2734&zoom=true&previewImage=false&scale=true&disable_scroll=true&theme=light">
+                </iframe>
+              </div>
+          </div> -->
+
+        </div>
+
+        <!-- California Drought, Precipitation, Heat Severity, & Vegetation Maps 
+             Wildfires in California Within the Past 20 Years  -->
+             <!-- <h2 text-align="center">California Drought, Precipitation, Heat Severity, & Vegetation Map / </h2>
+             <h2 text-align="center">Wildfires in California Within the Past 20 Years Map</h2>
+             <iframe
+               width="1920"
+               height="720"
+               frameborder="0"
+               scrolling="no"
+               marginheight="0"
+               marginwidth="300px"
+               src="https://www.arcgis.com/apps/Compare/index.html?appid=8bf1480de87346bb8098d9d51eb8b628"
+             ></iframe> -->
+  </body>
+</html>

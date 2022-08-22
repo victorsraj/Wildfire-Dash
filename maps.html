@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/mapsNav/reset.min.css" />
+    <link rel="stylesheet" href="css/mapsNav/stylesNav.css" />
+    <link rel="stylesheet" href="css/mapsNav/headerNav.css" />
+    <!-- <link rel="stylesheet" href="css/mapsNav/dashboard.css" /> -->
+    <link href="css/templatemo_style.css" rel="stylesheet" media="screen" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <style>
+      .row {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        max-width: 100%;
+      }
+
+      .column {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        flex: 1;
+        margin: 10px;
+      }
+      .sticky {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        background-color: white;
+        z-index: 1;
+      }
+      .some-page-wrapper {
+        margin: 15px;
+      }
+
+      .first-column {
+        height: 100%;
+      }
+
+      .second-column {
+        height: 100%;
+      }
+      .embed-container {
+        position: relative;
+        padding-bottom: 56.25%;
+        height: 0;
+        max-width: 100%;
+        z-index: 0;
+      }
+      .embed-container iframe,
+      .embed-container object,
+      .embed-container iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+      small {
+        position: absolute;
+        z-index: 40;
+        bottom: 0;
+        margin-bottom: -15px;
+      }
+
+      @media screen and (min-width: 800px) {
+        .row {
+          flex: 1;
+        }
+      }
+    </style>
+
+    
+    <title>Dashboard</title>
+  </head>
+  <!-- Header Start -->
+  <header class="site-header sticky">
+    <div class="wrapper site-header__wrapper">
+      <a href="#" class="brand"
+        ><img src="images/rsz_logo-seniordesign.png"
+      /></a>
+      <nav class="nav">
+        <button class="nav__toggle btn" aria-expanded="false" type="button">
+          <i class="fa fa-bars"></i>
+        </button>
+        <ul class="nav__wrapper">
+          <li class="nav__item"><a href="index.html#introduction">Home</a></li>
+          <li class="nav__item"><a href="index.html#about">About Us</a></li>
+          <li class="nav__item">
+            <a href="index.html#dashboard">Dashboard</a>
+          </li>
+          <li class="nav__item"><a href="news.html">News</a></li>
+          <li class="nav__item"><a href="research.html">Research</a></li>
+          <li class="nav__item"><a href="index.html#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div style="border-bottom: 1px solid black;"></div>
+    ;
+  </header>
+  <!-- Header End -->
+
+
+
+
+
+  <body>
+
+  
+ <!-- ROWS WITH 2 COLUMNS EACH -->
+ <div class="some-page-wrapper">
+    <!-- ROW 1 -->
+    <div class="row">
+      <!-- COLUMN 1 -->
+      <div class="column">
+        <div class="first-column">
+          <!-- <div class="embed-container"> -->
+            <!-- <p>insert video or gallery<p> -->
+              <img src="images/wildfireInfograph.png" alt="wildfire info">
+          <!-- </div> -->
+         
+        </div>
+      </div>
+
+      <!-- COLUMN 2 -->
+      <div class="column">
+        <div class="first-column">
+        
+          <!-- <div class="embed-container"> -->
+            <h1>What are the factors that cause or spread wildfires? </h1>
+            <p>P1. Drought, Percipitation, Temperature, Vegetation, and Wind Speed play a major effect in
+                the spread of wildfires.
+            </p>
+            <p>P2. Our maps below illustrate that the wildfire specifically the smoke may affect the way droplets form in clouds, potentially resulting in less rain</p>
+            <p>
+              P3. This page is a resource to compare...
+            </p>
+          <!-- </div> -->
+        </div>
+      </div>
+    </div>
+    <!-- PAGE TITLE -->
+    <h1 style="text-align: center;">Maps</h1>
+    <!-- ROWS WITH 2 COLUMNS EACH -->
+    <div class="some-page-wrapper">
+      <!-- ROW 1 -->
+      <div class="row">
+        <!-- COLUMN 1 -->
+        <div class="column">
+          <div class="first-column">
+            <h2 text-align="center" >Wildfire Map</h2>
+            <div class="embed-container">
+              <iframe 
+              src="https://csula.maps.arcgis.com/apps/instant/slider/index.html?appid=2c2f0a1d4b7a4a22836d2af833e7e538" 
+              width="1920"
+              height="720"
+              frameborder="0" 
+              style="border:0" 
+              allowfullscreen>
+            </iframe>
+            </div>
+            <h5>Description of what this map interprets. What properties to consider.</h5>
+          </div>
+        </div>
+
+        <!-- COLUMN 2 -->
+        <div class="column">
+          <div class="first-column">
+            <h2 text-align="center">
+              Soil Moisture
+            </h2>
+            <div class="embed-container">
+              <iframe 
+              src="https://csula.maps.arcgis.com/apps/instant/slider/index.html?appid=df14b98cebdf4ac98e6bb4f55c1a9fba" 
+              width="400" 
+              height="600" 
+              frameborder="0" 
+              style="border:0" 
+              allowfullscreen>
+            </iframe>
+            </div>
+            <h5>Description of what this map interprets. What properties to consider.</h5>
+          </div>
+        </div>
+      </div>
+      <!-- END ROW 1 -->
+
+      <!-- ROW 2 -->
+      <div class="row">
+        <!-- COLUMN 1 -->
+        <div class="column">
+          <div class="first-column">
+            <h2 text-align="center">Precipitation Map (2017 - Current)</h2>
+            <div class="embed-container">
+              <iframe
+                width="1920"
+                height="720"
+                frameborder="0"
+                scrolling="no"
+                marginheight="0"
+                marginwidth="0"
+                title="Wildfire Map"
+                src="https://csula.maps.arcgis.com/apps/instant/slider/index.html?appid=9b813baa992244e398ee0d33aebfed49"                >
+              </iframe>
+            </div>
+            <h5>Description of what this map interprets. What properties to consider.</h5>
+          </div>
+        </div>
+
+        <!-- COLUMN 2 -->
+        <div class="column">
+          <div class="second-column">
+            <h2 text-align="center">Temperature Map</h2>
+            <h2 text-align="center"></h2>
+            <div class="embed-container">
+                  <iframe 
+                  width="1920"
+                  height="720"
+                  src="https://www.youtube.com/embed/dDhLbdHBOOE" 
+                  title="YouTube video player" 
+                  frameborder="0" 
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                  allowfullscreen>
+                  </iframe>
+
+            </div>
+            <h5>Description of what this map interprets. What properties to consider.</h5>
+          </div>
+        </div>
+      </div>
+      <!-- END ROW 2 -->
+
+      <!-- ROW 3-->
+      <div class="row">
+        <div class="column">
+          <div class="first-column">
+            <h2 text-align="center">Vegetation Map</h2>
+            <div class="embed-container">
+              <iframe
+                width="1920"
+                height="720"
+                frameborder="0"
+                scrolling="no"
+                marginheight="0"
+                marginwidth="0"
+                title="Wildfire Map"
+                src="https://csula.maps.arcgis.com/apps/instant/slider/index.html?appid=e6f2ba2b1ec741ee9b4fa8042c997917"
+              >
+              </iframe>
+            </div>
+            <h5>Description of what this map interprets. What properties to consider.</h5>
+          </div>
+        </div>
+        <div class="column">
+          <div class="second-column">
+            <h2 text-align="center">Wind Map (Yearly)</h2>
+            <div class="embed-container">
+              <iframe
+                width="1920"
+                height="720"
+                frameborder="0"
+                scrolling="no"
+                marginheight="0"
+                marginwidth="0"
+                title="Wind Map"
+                src="https://csula.maps.arcgis.com/apps/instant/slider/index.html?appid=a3fc80c126514b4a83f86bddca5e8ffc"              >
+              </iframe>
+            </div>
+            <h5>Description of what this map interprets. What properties to consider.</h5>
+          </div>
+        </div>
+      </div>
+
+      <!-- ROW 5 -->
+      <div class="row">
+        <div class="column">
+          <div class="first-column">
+            <!-- <div class="embed-container"> -->
+              <h1>How do these factors correlate to one another in terms of wildfires?</h1>
+              <p>* A decreased result in Vegetation due to an increase in wildfire in the last 6 years.</p>
+              <p>* An increase in Fire was due to the Drought which resulted in Less Vegetation.</p>
+              <p></p>
+              <p></p>
+              <p></p>
+            <!-- </div> -->
+          </div>
+        </div>
+        <div class="column">
+            <div class="second-column">
+                <h2 text-align="center">Research Map/Case study</h2>
+                <div class="embed-container">
+              <!-- <div class="embed-container"> -->
+                <!-- <p> insert a research map here> -->
+                    <iframe 
+                    src="https://storymaps.arcgis.com/stories/b2fc93bd360848b39e0070c0c3bc15aa" 
+                    width="1920"
+                    height="720"
+                    frameborder="0" 
+                    allowfullscreen 
+                    allow="geolocation">
+                  </iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+
+   
+      <!-- <div class="embed-container">
+      <h3> add a video </h3>
+      </div> -->
+      <div classname="moremaps" text-align="center">
+          <div class="center">
+            <a href="maps.html">
+              <button class="button arrow">View Research</button></a
+            ><br /><br />
+          </div>
+        </div>
+
+    
+  </body>
+  <script src="js/header-1.js"></script>
+</html>
